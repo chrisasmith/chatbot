@@ -1,0 +1,22 @@
+:host {
+  font-family: inherit;
+  .message-control {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    input {
+      height: 49px;
+      font-size: medium;
+      display: block;
+      width: 100%;
+      outline: 0;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+    }
+    button {
+      cursor: pointer;
+    }
+  }
+
+}

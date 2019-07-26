@@ -1,0 +1,4 @@
+<div class="message-control">
+    <input matInput type="text" class="" placeholder="Send message..." (keyup.enter)="postMessage()" [(ngModel)]="message"/>
+    <button class="" [disabled]="message.length === 0" (click)="postMessage()" mat-button>Send</button>
+</div>

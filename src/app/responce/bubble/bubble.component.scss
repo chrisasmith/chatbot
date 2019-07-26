@@ -1,0 +1,25 @@
+:host{
+  div {
+    max-width: 60%;
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 7px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .bot {
+    text-align: left;
+    margin-right: auto;
+    background-color: #001f3f;
+    color: #ffffff;
+  }
+
+  .user {
+    text-align: right;
+    margin-left: auto;
+    background-color: #dddddd;
+    color: #000000;
+  }
+}
